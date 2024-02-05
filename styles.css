@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+.Question{
+    width: 40vh;
+    
+}
+
+button{    
+    width: 20vh;
+    
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 10px;
+
+
+}
+
+button:hover{
+    background-color: #772ce8;
+}
+
+img{
+  
+   max-width: 100%;
+   height: auto; 
+}
